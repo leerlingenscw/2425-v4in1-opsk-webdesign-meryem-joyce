@@ -44,7 +44,7 @@ body {
 /* Header */
 .header {
    grid-area: header;
-   background-color: #101937;
+   background-color: #1A2A7E;
    color: white;
    padding-top: 20px; /* Padding bovenaan de header is 20px, de rest is 0. */
    text-align: center;
@@ -53,7 +53,7 @@ body {
 
 /* Navigatie onderin de header */
 .header-nav {
-   background-color: #1A2A7E;
+   background-color: #2052A3;
    padding: 10px; /* Binnenruimte rondom de links */
 }
 
