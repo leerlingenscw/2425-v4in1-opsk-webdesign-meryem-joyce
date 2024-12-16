@@ -20,11 +20,11 @@
 /* Basisstijl voor de hele pagina */
 
 body {
-   font-family: 'Georgia', serif;
+   font-family: 'Helvetica', sans-serif;
    margin: 0;
    padding: 0;
-   background-color: #f2f3f5;
-   line-height: 1.6;
+   background-color: #FCFCFC;
+   line-height: 1.15;
 }
 
 /* CSS Grid Container */
@@ -49,6 +49,7 @@ body {
    padding-top: 20px; /* Padding bovenaan de header is 20px, de rest is 0. */
    text-align: center;
    position: relative; /* Zorgt dat de navigatie correct wordt geplaatst */
+   font-family: 'Georgia', serif;
 }
 
 /* Navigatie onderin de header */
