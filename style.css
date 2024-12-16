@@ -44,7 +44,7 @@ body {
 /* Header */
 .header {
    grid-area: header;
-   background-color: #6C5B7B;
+   background-color: #1A2A7E;
    color: white;
    padding-top: 20px; /* Padding bovenaan de header is 20px, de rest is 0. */
    text-align: center;
