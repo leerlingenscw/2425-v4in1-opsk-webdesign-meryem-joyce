@@ -35,7 +35,7 @@ body {
        "main sidebar"    /* Main naast de zijbalk */
        "footer footer";  /* Footer over twee kolommen */
    grid-template-columns: 3fr 1fr; /* 3 delen voor main, 1 deel voor sidebar */
-   grid-template-rows: auto 1fr auto; /* Hoogteverdeling */
+   grid-template-rows: auto 2fr auto; /* Hoogteverdeling */
    height: 100vh;
    gap: 10px;
 }
@@ -55,7 +55,7 @@ body {
 /* Navigatie onderin de header */
 .header-nav {
    background-color: #2052A3;
-   padding: 10px; /* Binnenruimte rondom de links */
+   padding: 20px; /* Binnenruimte rondom de links */
 }
 
 .header-nav ul {
