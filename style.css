@@ -35,7 +35,7 @@ body {
        "main sidebar"    /* Main naast de zijbalk */
        "footer footer";  /* Footer over twee kolommen */
    grid-template-columns: 4fr 1fr; /* 3 delen voor main, 1 deel voor sidebar */
-   grid-template-rows: auto 3fr 1fr; /* Hoogteverdeling */
+   grid-template-rows: auto 4fr 1fr; /* Hoogteverdeling */
    height: 100vh;
    gap: 10px;
 }
