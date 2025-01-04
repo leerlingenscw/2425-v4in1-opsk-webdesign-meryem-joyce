@@ -53,7 +53,6 @@ body {
 }
 
 .wn {
-      grid-area: header;
       font-size: 40px;
       font-weight: bold;
 }
