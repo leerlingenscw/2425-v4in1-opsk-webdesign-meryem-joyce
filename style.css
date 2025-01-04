@@ -46,7 +46,7 @@ body {
    grid-area: header;
    background-color: #1A2A7E;
    color: #5970e4;
-   padding-top: 10px; /* Padding bovenaan de header is 20px, de rest is 0. */
+   padding-top: 20px; /* Padding bovenaan de header is 20px, de rest is 0. */
    text-align: center;
    position: relative; /* Zorgt dat de navigatie correct wordt geplaatst */
    font-family: 'Georgia', serif;
