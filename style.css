@@ -36,7 +36,7 @@ body {
        "main main"    /* Main naast de zijbalk */
        "footer footer";  /* Footer over twee kolommen */
    grid-template-columns: 4fr 1fr; 
-   grid-template-rows: 21fr 16fr auto 12fr; /* Hoogteverdeling */
+   grid-template-rows: 21fr 16fr 167fr 12fr; /* Hoogteverdeling */
    height: 5vh;
    gap: 10px;
 }
