@@ -52,6 +52,12 @@ body {
    font-family: 'Georgia', serif;
 }
 
+.wn {
+      grid-area: header;
+      font-size: 40px;
+      font-weight: bold;
+}
+
 /* Navigatie onderin de header */
 .header-nav {
    background-color: #2052A3;
