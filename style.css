@@ -37,7 +37,7 @@ body {
        "footer";
    grid-template-rows: 21fr 16fr 167fr 12fr; /* Hoogteverdeling */
    height: 5vh;
-   gap: 5px;
+   gap: 0px;
 }
 /* ----------------------------------------------------------------------------------------------------- */
 
