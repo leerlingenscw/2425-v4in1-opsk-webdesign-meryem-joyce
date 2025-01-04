@@ -35,7 +35,7 @@ body {
        "img"
        "main"    
        "footer";
-   grid-template-rows: 21fr 16fr 167fr 12fr; /* Hoogteverdeling */
+   grid-template-rows: 19fr 16fr 167fr 12fr; /* Hoogteverdeling */
    height: 5vh;
    gap: 0px;
 }
@@ -45,7 +45,7 @@ body {
 .header {
    grid-area: header;
    background-color: #1A2A7E;
-   color: #4a61d7;
+   color: #5970e4;
    padding-top: 20px; /* Padding bovenaan de header is 20px, de rest is 0. */
    text-align: center;
    position: relative; /* Zorgt dat de navigatie correct wordt geplaatst */
