@@ -32,11 +32,12 @@ body {
    display: grid; /* Dit gebruik je voor de CSS Grid container, om grid te 'activeren'. */
    grid-template-areas:
        "header header"   /* Header over twee kolommen */
-       "main sidebar"    /* Main naast de zijbalk */
+       "img img"
+       "main main"    /* Main naast de zijbalk */
        "footer footer";  /* Footer over twee kolommen */
-   grid-template-columns: 4fr 1fr; /* 3 delen voor main, 1 deel voor sidebar */
-   grid-template-rows: auto 5fr 1fr; /* Hoogteverdeling */
-   height: 100vh;
+   grid-template-columns: 4fr 1fr; 
+   grid-template-rows: 21fr 16fr auto 12fr; /* Hoogteverdeling */
+   height: 5vh;
    gap: 10px;
 }
 /* ----------------------------------------------------------------------------------------------------- */
