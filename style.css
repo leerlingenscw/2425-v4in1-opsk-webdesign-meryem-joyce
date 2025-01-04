@@ -57,7 +57,6 @@ body {
       padding-bottom: 10px;
       font-weight: bold;
       color:white;
-      mask-type: luminance;
 }
 
 .alt {
