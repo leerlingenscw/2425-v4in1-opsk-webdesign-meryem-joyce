@@ -54,9 +54,13 @@ body {
 
 .wn {
       font-size: 40px;
-      padding-bottom: 15px;
+      padding-bottom: 10px;
       font-weight: bold;
       color:white;
+}
+
+.alt {
+      padding-bottom: 15px;
 }
 
 /* Navigatie onderin de header */
