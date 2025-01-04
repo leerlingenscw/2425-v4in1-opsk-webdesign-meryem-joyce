@@ -45,14 +45,15 @@ body {
 .header {
    grid-area: header;
    background-color: #1A2A7E;
-   color: white;
+   color: #3249b9;
    padding-top: 20px; /* Padding bovenaan de header is 20px, de rest is 0. */
    text-align: center;
-   position: absolute; /* Zorgt dat de navigatie correct wordt geplaatst */
+   position: relative; /* Zorgt dat de navigatie correct wordt geplaatst */
    font-family: 'Georgia', serif;
 }
 
 .wn {
+      padding-bottom: -10px;
       font-size: 40px;
       font-weight: bold;
 }
