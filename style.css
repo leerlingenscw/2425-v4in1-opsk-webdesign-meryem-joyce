@@ -48,7 +48,7 @@ body {
    color: white;
    padding-top: 20px; /* Padding bovenaan de header is 20px, de rest is 0. */
    text-align: center;
-   position: relative; /* Zorgt dat de navigatie correct wordt geplaatst */
+   position: absolute; /* Zorgt dat de navigatie correct wordt geplaatst */
    font-family: 'Georgia', serif;
 }
 
