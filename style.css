@@ -45,7 +45,7 @@ body {
 .header {
    grid-area: header;
    background-color: #1A2A7E;
-   color: #5970e4;
+   color: #FCFCFC;
    padding-top: 40px;
    text-align: center;
    position: relative; /* Zorgt dat de navigatie correct wordt geplaatst */
@@ -56,11 +56,11 @@ body {
       font-size: 40px;
       padding-bottom: 10px;
       font-weight: bold;
-      color:white;
 }
 
 .alt {
       padding-bottom: 30px;
+      color: #5970e4;
 }
 
 /* Navigatie onderin de header */
@@ -79,7 +79,7 @@ body {
 }
 
 .header-nav a {
-   color: white; /* Kleur van de links */
+   color: #FCFCFC; /* Kleur van de links */
    text-decoration: none;
    padding: 5px 10px; /* Binnenruimte rondom de linkjes */
    border-radius: 3px; /* Zorgt voor afgeronde hoeken */
@@ -88,13 +88,13 @@ body {
 
 .header-nav a:hover {
    background-color: #101937; /* Achtergrondkleur bij hover */
-   color: white;
+   color: #FCFCFC;
 }
 
 /* Hoofdinhoud */
 .main {
    grid-area: main;
-   background-color: white;
+   background-color: #FCFCFC;
    padding: 20px;
    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -107,5 +107,6 @@ body {
    background-color: #1A2A7E;
    color: white;
    padding: 10px;
+   font-family:'Gill Sans', sans-serif;
    text-align: justify;
 }
