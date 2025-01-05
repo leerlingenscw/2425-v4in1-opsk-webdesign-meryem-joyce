@@ -45,7 +45,7 @@ body {
 .header {
    grid-area: header;
    height: 150px;
-   background-image: url(images/SBN_logo.png) 0.5;
+   background-image: url(images/SBN_logo.png) 0.8;
    background-color: #1A2A7E;
    background-size: 60px 60px;
    background-position: 0 0, 30px 30px;
