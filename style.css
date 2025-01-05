@@ -58,10 +58,9 @@ body {
 }
 
 .header {
-   background-image:  url(images/SBN_logo.png);
-   background-repeat: round;
-   background-size: 60px;
-   background-position: 0, 30px;
+   background-image:  url(images/SBN_logo.png), url(images/Penguin.jpg);
+   background-size: 60px 60px;
+   background-position: 0 30px, 30px 60px;
 }
 
 .wn {
