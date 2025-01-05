@@ -88,17 +88,18 @@ body {
 .header-nav ul {
    display: flex; /* Flexbox voor horizontale uitlijning */
    justify-content: flex-start; /* Plaatst links zoveel mogelijk naar links */
-   gap: 15px; /* Ruimte tussen de linkjes */
-   list-style: none; /* Verwijdert opsommingstekens */
+   gap: 5px; /* Ruimte tussen de linkjes */
+   list-style: none;
    padding: 0;
    margin: 0;
+   text-align: center;
 }
 
 .header-nav a {
    color: #FCFCFC; /* Kleur van de links */
    text-decoration: none;
    padding: 5px 10px; /* Binnenruimte rondom de linkjes */
-   border-radius: 3px; /* Zorgt voor afgeronde hoeken */
+   border-radius: 1px; /* Zorgt voor afgeronde hoeken */
    transition: background-color 0.3s ease, color 0.3s ease; /* Soepele overgang bij hover */
 }
 
