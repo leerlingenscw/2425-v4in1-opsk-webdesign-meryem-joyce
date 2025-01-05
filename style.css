@@ -70,6 +70,8 @@ body {
             position: absolute;
             top: 0px;
             left: 0px;
+            height: 75px;
+            width: auto;
 }
 
 /* Navigatie onderin de header */
