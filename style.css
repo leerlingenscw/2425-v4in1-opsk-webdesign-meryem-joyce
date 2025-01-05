@@ -65,6 +65,11 @@ body {
       color: #5970e4;
 }
 
+/* Logo in de header */
+.header-img {
+            
+}
+
 /* Navigatie onderin de header */
 .header-nav {
    background-color: #2052A3;
@@ -91,11 +96,6 @@ body {
 .header-nav a:hover {
    background-color: #101937; /* Achtergrondkleur bij hover */
    color: #FCFCFC;
-}
-
-/*Image */
-.img {
-   
 }
 
 /* Hoofdinhoud */
