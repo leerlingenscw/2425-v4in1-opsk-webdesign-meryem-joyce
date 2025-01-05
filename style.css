@@ -58,7 +58,7 @@ body {
 }
 
 .header {
-   background-image: transparent 50% url(images/SBN_logo.png);
+   background-image: transparent url(images/SBN_logo.png);
 }
 
 .wn {
