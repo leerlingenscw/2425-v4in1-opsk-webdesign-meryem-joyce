@@ -60,6 +60,7 @@ body {
 .header {
    background-image:  url(images/SBN_logo.png);
    background-repeat: round;
+   background-size: 30px;
 }
 
 .wn {
