@@ -76,6 +76,7 @@ body {
             position: absolute;
             top: 13px;
             left: 5px;
+            box-align: center;
 }
 
 /* Navigatie onderin de header */
