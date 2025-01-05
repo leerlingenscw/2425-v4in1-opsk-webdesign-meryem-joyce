@@ -93,6 +93,11 @@ body {
    color: #FCFCFC;
 }
 
+/*Image */
+.img {
+   
+}
+
 /* Hoofdinhoud */
 .main {
    grid-area: main;
