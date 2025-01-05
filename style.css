@@ -44,7 +44,6 @@ body {
 /* Header */
 .header {
    grid-area: header;
-   background-color: #1A2A7E;
    background-image: linear-gradient(to right, #1A2A7E , #ED7C19, 0.8);
    color: #FCFCFC;
    padding-top: 40px;
