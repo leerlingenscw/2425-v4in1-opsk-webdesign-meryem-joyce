@@ -46,7 +46,8 @@ body {
    grid-area: header;
    height: 150px;
    background-color: #1A2A7E;
-   background-image: url(images/SBN_logo.png), url(images/SBN_logo.png);
+   background-image: url(images/SBN_logo.png), 
+   linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
    background-size: 60px 60px;
    background-position: 0 0, 30px 30px;
    color: #FCFCFC;
