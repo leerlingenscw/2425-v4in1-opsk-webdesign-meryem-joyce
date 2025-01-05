@@ -58,9 +58,7 @@ body {
 }
 
 .header {
-   background-image:  url(images/SBN_logo.png), url(images/Penguin.jpg);
-   background-size: 60px 60px;
-   background-position: 0 30px, 30px 60px;
+   background-image: transparent 50% url(images/SBN_logo.png);
 }
 
 .wn {
