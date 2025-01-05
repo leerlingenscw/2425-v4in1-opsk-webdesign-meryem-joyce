@@ -45,11 +45,12 @@ body {
 .header {
    grid-area: header;
    height: 150px;
+   background-image:  url(images/SBN_logo.png);
    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
-   linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), url(images/SBN_logo.png);
+   linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
    background-color: #1A2A7E;
-   background-size: 30px 30px;
-   background-position: 0 0, 15px 15px;
+   background-size: 60px 60px;
+   background-position: 0 0, 30px 30px;
    color: #FCFCFC;
    padding-top: 40px;
    text-align: center;
