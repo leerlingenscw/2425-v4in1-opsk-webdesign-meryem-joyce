@@ -44,14 +44,14 @@ body {
 /* Header */
 .header {
    grid-area: header;
-   height: 150px;
+   height: 140px;
    background: 
-   linear-gradient(27deg, #0c132a 5px, transparent 5px) 0 5px,
-   linear-gradient(207deg, #0c132a 5px, transparent 5px) 10px 0px,
-   linear-gradient(27deg, #152368 5px, transparent 5px) 0px 10px,
-   linear-gradient(207deg, #152368 5px, transparent 5px) 10px 5px,
-   linear-gradient(90deg, #101a3c 10px, transparent 10px),
-   linear-gradient(#101937 25%, #152149 25%, #152149 50%, transparent 50%, transparent 75%, #182654 75%, #182654);
+   linear-gradient(27deg, #2052A3 5px, transparent 5px) 0 5px,
+   linear-gradient(207deg, #1b2c63 5px, transparent 5px) 10px 0px,
+   linear-gradient(27deg, #1d2f8b 5px, transparent 5px) 0px 10px,
+   linear-gradient(207deg, #1d2f8b 5px, transparent 5px) 10px 5px,
+   linear-gradient(90deg, #111c40ec 10px, transparent 10px),
+   linear-gradient(#101937 25%, #152149 25%, #152149 50%, transparent 50%, transparent 75%, #131f48 75%, #182654);
    background-size: 20px 20px;
    background-color: #1A2A7E;
    color: #FCFCFC;
@@ -59,29 +59,28 @@ body {
    text-align: center;
    position: relative;
    font-family: 'Georgia', serif;
-   text-shadow: 0 0 3px #ED7C19, 0 0 8px #DF041A;
 }
 
 .wn {
       font-size: 40px;
       padding-bottom: 10px;
       font-weight: bold;
+      text-shadow: 0 0 3px #ED7C19, 0 0 8px #DF041A;
 }
 
 .alt {
       padding-bottom: 30px;
-      color: #647eff;
+      color: #F7E451;
       font-weight: 550;
       font-style: italic;
       text-shadow: 0 0 3px #101a3c, -1px 0 2px #152368, 0 1px 2px #152368, 1px 0 2px #152368, 0 -1px 2px #152368;
 }
 
 
-
 /* Navigatie onderin de header */
 .header-nav {
    background-color: #2052A3;
-   padding: 20px; /* Binnenruimte rondom de links */
+   padding: 10px; /* Binnenruimte rondom de links */
 }
 
 .header-nav ul {
@@ -113,6 +112,12 @@ body {
    padding: 20px;
    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
    height: 835px;
+   margin: 0px;
+}
+
+/* Image */
+.img {
+      margin: 0px;
 }
 
 /* Footer */
