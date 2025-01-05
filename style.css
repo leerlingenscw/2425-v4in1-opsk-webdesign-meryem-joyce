@@ -59,6 +59,7 @@ body {
    text-align: center;
    position: relative;
    font-family: 'Georgia', serif;
+   text-shadow: 0 0 3px #ED7C19, 0 0 8px #DF041A;
 }
 
 .wn {
@@ -69,18 +70,13 @@ body {
 
 .alt {
       padding-bottom: 30px;
-      color: #5970e4;
+      color: #647eff;
       font-weight: 550;
       font-style: italic;
+      text-shadow: 0 0 3px #101a3c, -1px 0 2px #152368, 0 1px 2px #152368, 1px 0 2px #152368, 0 -1px 2px #152368;
 }
 
-/* Logo in de header */
 
-/* .header-img {
-            position: absolute;
-            top: 13px;
-            left: 5px;
-}
 
 /* Navigatie onderin de header */
 .header-nav {
