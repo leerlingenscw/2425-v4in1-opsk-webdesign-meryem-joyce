@@ -68,6 +68,8 @@ body {
 /* Logo in de header */
 .header-img {
             position: absolute;
+            top: 30px;
+            left: 20px;
 }
 
 /* Navigatie onderin de header */
