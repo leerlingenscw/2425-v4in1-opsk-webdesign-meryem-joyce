@@ -115,6 +115,7 @@ body {
 /* Hoofdinhoud */
 .main {
    grid-area: main;
+   text-align: justify;
    background-color: #FCFCFC;
    color:#101937;
    padding: 20px;
