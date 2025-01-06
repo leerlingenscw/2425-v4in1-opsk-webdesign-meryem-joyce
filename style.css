@@ -61,6 +61,7 @@ body {
    text-align: center;
    position: relative;
    font-family: 'Georgia', serif;
+   overflow: hidden;
 }
 
 .wn {
@@ -83,6 +84,8 @@ body {
    background-color: #2052A3;
    padding: 10px; /* Binnenruimte rondom de links */
    position: relative;
+   height: 30px;
+   overflow: hidden;
 }
 
 .header-nav ul {
@@ -112,13 +115,15 @@ body {
 .main {
    grid-area: main;
    background-color: #FCFCFC;
+   color:#101937;
    padding: 20px;
    height: 835px;
    margin: 0px;
+   position: relative;
 }
 
 /* Image */
-.img {
+.header-decor {
       position: relative;
 }
 
