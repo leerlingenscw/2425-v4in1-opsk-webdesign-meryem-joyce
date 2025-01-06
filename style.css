@@ -47,6 +47,7 @@ body {
 .header {
    grid-area: header;
    height: 140px;
+   padding-top: 40px;
    background: 
    linear-gradient(27deg, #2052A3 5px, transparent 5px) 0 5px,
    linear-gradient(207deg, #1b2c63 5px, transparent 5px) 10px 0px,
@@ -57,10 +58,9 @@ body {
    background-size: 20px 20px;
    background-color: #1A2A7E;
    color: #FCFCFC;
-   padding-top: 40px;
+   font-family: 'Georgia', serif;
    text-align: center;
    position: relative;
-   font-family: 'Georgia', serif;
    overflow: hidden;
 }
 
