@@ -138,24 +138,28 @@ body {
 /* Footer */
 .footer {
    grid-area: footer;
-   background-color: #1A2A7E;
+   background-color: #2052A3;
    color: white;
-   padding: 20px auto 20px auto;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 200px;
+   padding-left: 200px;
+   margin-top: 8px;
    font-family:'Gill Sans', sans-serif;
    font-weight: 500;
    text-align: justify;
    height: 60px;
 }
 
-/* #topbutton {
+   #topbutton {
    display: none;
-   position: sticky;
-   bottom: 20px; 
-   right: 30px; 
+   position: fixed;
+   bottom: 100px; 
+   right: 20px; 
    z-index: 99;
    border: none;
    outline: none;
-   background-color: red;
+   background-color: #101937;
    color: white;
    cursor: pointer; 
    padding: 15px;
