@@ -95,7 +95,7 @@ body {
 .header-nav ul {
    display: flex; /* Flexbox voor horizontale uitlijning */
    justify-content: center;
-   gap: 5px; /* Ruimte tussen de linkjes */
+   gap: 0px; /* Ruimte tussen de linkjes */
    list-style: none;
    padding: 0;
    margin-top: 3px;
