@@ -139,7 +139,7 @@ body {
 .footer {
    grid-area: footer;
    background-color: #2052A3;
-   color: white;
+   color: #FCFCFC;
    padding-top: 25px;
    padding-bottom: 20px;
    padding-right: 200px;
