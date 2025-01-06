@@ -65,7 +65,7 @@ body {
 }
 
 .wn {
-      font-size: 40px;
+      font-size: 42px;
       font-weight: bold;
       text-shadow: 0 0 3px #ED7C19;
 }
@@ -81,9 +81,12 @@ body {
 /* Navigatie onderin de header */
 .header-nav {
    background-color: #2052A3;
+   font-family: 'Gill Sans', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
    padding: 10px; /* Binnenruimte rondom de links */
    position: absolute;
-   top: 140px;
+   top: 135px;
    width: 100%;
    height: 30px;
    overflow: hidden;
@@ -91,7 +94,7 @@ body {
 
 .header-nav ul {
    display: flex; /* Flexbox voor horizontale uitlijning */
-   justify-content: flex-start; /* Plaatst links zoveel mogelijk naar links */
+   justify-content: center;
    gap: 5px; /* Ruimte tussen de linkjes */
    list-style: none;
    padding: 0;
@@ -100,9 +103,10 @@ body {
 }
 
 .header-nav a {
-   color: #FCFCFC; /* Kleur van de links */
+   color: #aecdff;
+   text-shadow: 0 0 1px #101937;
    text-decoration: none;
-   padding: 5px 10px; /* Binnenruimte rondom de linkjes */
+   padding: 15px 15px; /* Binnenruimte rondom de linkjes */
    border-radius: 1px; /* Zorgt voor afgeronde hoeken */
    transition: background-color 0.3s ease, color 0.3s ease; /* Soepele overgang bij hover */
 }
@@ -110,6 +114,7 @@ body {
 .header-nav a:hover {
    background-color: #101937; /* Achtergrondkleur bij hover */
    color: #FCFCFC;
+   text-shadow: 0 0 1px #ED7C19;
 }
 
 /* Hoofdinhoud */
@@ -120,7 +125,8 @@ body {
    color:#101937;
    padding: 20px;
    height: 835px;
-   margin: 0px;
+   margin-left: auto;
+   margin-right: auto;
    position: relative;
 }
 
@@ -134,7 +140,7 @@ body {
    grid-area: footer;
    background-color: #1A2A7E;
    color: white;
-   padding: 10px;
+   padding: 20px auto 20px auto;
    font-family:'Gill Sans', sans-serif;
    font-weight: 500;
    text-align: justify;
