@@ -117,10 +117,10 @@ body {
    text-shadow: 0 0 1px #ED7C19;
 }
 
-.header-nav a:active {
-   background-color: #101937; 
-   color: #FCFCFC;
-   text-shadow: 0 0 1px #ED7C19;
+.header-nav a.active-link {
+   background-image: linear-gradient(rgb(26, 42, 126, 0.5), rgb(26, 42, 126, 0.5)); 
+   color: #92bcff;
+   font-weight: 525;
 }
 
 /* Hoofdinhoud */
@@ -148,8 +148,8 @@ body {
    color: #FCFCFC;
    padding-top: 25px;
    padding-bottom: 20px;
-   padding-right: 200px;
-   padding-left: 200px;
+   padding-right: 300px;
+   padding-left: 300px;
    margin-top: 8px;
    height: 60px;
    font-family:'Gill Sans', sans-serif;
