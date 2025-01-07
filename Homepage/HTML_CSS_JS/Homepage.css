@@ -35,10 +35,10 @@ body {
        "img"
        "main"    
        "footer";
-/*   grid-template-columns: 384fr; */
+   /* grid-template-columns: 384fr; */
    grid-template-rows: 21fr 16fr 167fr 12fr; /* Hoogteverdeling */
    height: 5vh;
-/*   width: 5vh; */
+   /*width: 5vh; */
    gap: 0px;
 }
 /* ----------------------------------------------------------------------------------------------------- */
@@ -123,8 +123,8 @@ body {
    text-align: justify;
    background-color: #FCFCFC;
    color:#101937;
-   padding: 20px;
    height: 835px;
+   padding: 20px;
    margin-left: auto;
    margin-right: auto;
    position: relative;
@@ -145,11 +145,10 @@ body {
    padding-right: 200px;
    padding-left: 200px;
    margin-top: 8px;
+   height: 60px;
    font-family:'Gill Sans', sans-serif;
    font-weight: 500;
    text-align: justify;
-   height: 60px;
-
 }
 
    #topbutton {
