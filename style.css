@@ -35,10 +35,10 @@ body {
        "img"
        "main"    
        "footer";
-   /* grid-template-columns: 384fr; */
+   grid-template-columns: 384fr;
    grid-template-rows: 21fr 16fr 167fr 12fr; /* Hoogteverdeling */
    height: 5vh;
-   /*width: 5vh; */
+   width: 5vh;
    gap: 0px;
 }
 /* ----------------------------------------------------------------------------------------------------- */
