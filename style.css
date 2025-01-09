@@ -179,12 +179,5 @@ body {
  }
 
  #splash-screen {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100%;
-   background-color: #4caf50; /* Green background */
-   color: white;
-   text-align: center;
-   flex-direction: column;
- } 
+   background-color: #2052A3;
+} 
