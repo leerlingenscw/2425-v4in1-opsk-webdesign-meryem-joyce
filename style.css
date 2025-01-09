@@ -129,6 +129,7 @@ body {
    text-align: justify;
    background-color: #FCFCFC;
    color:#101937;
+   word-wrap: break-word;
    height: 835px;
    padding: 20px;
    margin-left: auto;
@@ -200,4 +201,8 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.Owlmare {
+   float: left;
 }
