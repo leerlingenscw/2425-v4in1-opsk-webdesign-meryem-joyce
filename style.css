@@ -182,7 +182,6 @@ body {
  .splash-screen {
    z-index: 99;
    background-color: #2052A3;
-   cursor: pointer;
    position: fixed;
    width: 100%;
    height: 100%;
@@ -196,13 +195,45 @@ body {
 }
 
 .splash-text {
-   color: #FCFCFC;
-   font-size: 15px;
-   display: flex;
+   margin-left: 40%;
+   margin-right: auto;
+   margin-top: 200px;
+   height: 200px;
+   width: 300px;
+   padding-top: 0px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 20px;
+   background-color: #FCFCFC;
+   border-radius: 10px;
+   border-color: #194489;
+   border-style: solid;
+   border-width: 2px;
+   box-shadow: 8px 8px 8px rgb(16, 25, 55, 0.3);
+   color: #1A2A7E;
+   font-family: Comic Sans MS, Comic Sans, cursive;
+   font-size: 16px;
+   display: block;
+   text-align: center;
    justify-content: center;
-   align-items: center;
+   position: fixed;
+   overflow-y: scroll;
+}
+
+.splash-main {
+   text-align: justify;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.splash-footer {
+   font-size: 12px;
+   color: rgb(26, 42, 126, 0.8);
 }
 
 .Owlmare {
-   float: left;
+   display: block;
+   top: 200px;
+   left: 25%;
+   position: fixed;
 }
