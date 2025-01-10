@@ -198,7 +198,7 @@ body {
 .splash-text {
    margin-left: 40%;
    margin-right: auto;
-   margin-top: 200px;
+   margin-top: 240px;
    height: 200px;
    width: 300px;
    padding-top: 0px;
@@ -234,7 +234,7 @@ body {
 
 .Owlmare {
    display: block;
-   top: 200px;
-   left: 28%;
+   top: 235px;
+   left: 29%;
    position: fixed;
 }
