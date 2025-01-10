@@ -36,10 +36,8 @@ body {
        "img"
        "main"    
        "footer";
-   grid-template-columns: 384fr; /* Moet dit of kan dit? */
    grid-template-rows: 21fr 16fr 167fr 12fr; /* Hoogteverdeling */
    height: 5vh;
-   width: 5vh; /* Moet dit of kan dit? */
    gap: 0px;
 }
 /* ----------------------------------------------------------------------------------------------------- */
