@@ -198,6 +198,11 @@ body {
    background-image: url(images/PressedTopButton.jpg);
  }
 
+ .counter {
+   margin-left: 6px;
+   font-weight: bolder;
+ }
+
  .splash-screen {
    z-index: 99;
    background-color: #2052A3;
