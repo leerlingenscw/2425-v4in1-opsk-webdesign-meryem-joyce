@@ -151,7 +151,8 @@ body {
  .dropdown-content a:hover {
    background-color: #dadada;
    font-size: 14px;
-   text-shadow: 0 0 2px #b3b3b3, -1px 0 1px #1A2A7E, 0 1px 1px #1A2A7E, 1px 0 1px #1A2A7E, 0 -1px 1px #1A2A7E;
+   color: #101937;
+   text-shadow: 0 0 3px #b3b3b3;
  }
  
  .dropdown:hover .dropdown-content {
