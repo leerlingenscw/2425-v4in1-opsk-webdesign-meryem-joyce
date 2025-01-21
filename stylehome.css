@@ -80,7 +80,7 @@ body {
    background-color: #2052A3;
    font-family: 'Gill Sans', sans-serif;
    font-size: 16px;
-   font-weight: 500;
+   font-weight: 520;
    padding: 10px; /* Binnenruimte rondom de links */
    position: absolute;
    top: 135px;
@@ -145,17 +145,18 @@ body {
    text-align: justify;
    text-shadow: none;
    text-decoration: none;
+   transition: background-color 0.5s ease, color 0.5s ease;
  }
  
  .dropdown-content a:hover {
    background-color: #dadada;
    font-size: 14px;
-   text-shadow: 0 0 2px #101937, -1px 0 1px #1A2A7E, 0 1px 1px #1A2A7E, 1px 0 1px #1A2A7E, 0 -1px 1px #1A2A7E;
+   text-shadow: 0 0 2px #b3b3b3, -1px 0 1px #1A2A7E, 0 1px 1px #1A2A7E, 1px 0 1px #1A2A7E, 0 -1px 1px #1A2A7E;
  }
  
  .dropdown:hover .dropdown-content {
    display: block;
-   border-radius: 3px;
+   border-radius: 0px 0px 5px 5px;
    position: relative;
    margin-top: 14px;
    z-index: 97;
