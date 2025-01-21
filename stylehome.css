@@ -80,7 +80,8 @@ body {
    font-family: 'Gill Sans', sans-serif;
    font-size: 16px;
    font-weight: 520;
-   padding: 10px; /* Binnenruimte rondom de links */
+   padding-top: 10px;
+   padding-bottom: 10px;
    position: absolute;
    top: 135px;
    width: 100%;
