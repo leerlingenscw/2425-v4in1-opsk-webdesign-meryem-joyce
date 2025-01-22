@@ -1,0 +1,40 @@
+/************************* DEBUG SETTINGS *************************/
+
+/* Settings to help find errors in your css
+   uncomment to enable */
+
+/* Add dotted line around all boxes.
+   This makes size of boxes visible.
+   Warning 1: this settings may change your layout.
+   Warning 2: keep the * as selector for all tags when uncommenting. */
+/*  * {border: 1px dotted black;}   */
+  
+/* Add semi-transparant dark background to all boxes
+   The more boxes are on top of eachother the darker tghe background color
+   Warning: keep the * as selector for all tags when uncommenting. */
+/*  * {background-color: rgba(0,0,0,5%);}
+
+/************************* YOUR SETTINGS *************************/
+body {
+   font-family: 'Helvetica', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #FCFCFC;
+   line-height: 1.15;
+   word-wrap: break-word;
+}
+
+/* CSS Grid Container */
+.grid-container {
+   display: grid; 
+   grid-template-areas:
+       "header header header" 
+       "nav main img"    
+       "footer footer footer";
+   grid-template-rows: 21fr 183fr 12fr; /* Hoogteverdeling */
+   height: 5vh;
+   grid-template-columns: 40fr 248fr 96fr;
+   width: 5vh;
+   gap: 0px;
+}
+/* ----------------------------------------------------------------------------------------------------- */
