@@ -34,6 +34,7 @@ body {
        "footer";
    grid-template-rows: 21fr 16fr 167fr 12fr; /* Hoogteverdeling */
    height: 5vh;
+   grid-template-columns: 1fr;
    gap: 0px;
 }
 /* ----------------------------------------------------------------------------------------------------- */
@@ -138,7 +139,8 @@ body {
    float: none;
    color: #1A2A7E;
    font-size: 14px;
-   padding: 8px;
+   padding-top: 8px;
+   padding-bottom: 8px;
    display: block;
    text-align: justify;
    text-shadow: none;
