@@ -178,6 +178,7 @@ body {
 
 /* Image */
 .header-decor {
+      grid-area: img;
       position: relative;
       z-index: 50;
 }
