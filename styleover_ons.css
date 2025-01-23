@@ -108,11 +108,11 @@ body {
 
 .side-nav a, .dropdown-btn {
    padding-right: 5px;
-   padding-left: 18px;
+   padding-left: 20px;
    padding-top: 15px;
    padding-bottom: 15px;
    text-decoration: none;
-   font-size: 20px;
+   font-size: 18px;
    font-weight: 520;
    font-family: 'Gill Sans', sans-serif;
    color: #2052A3;
@@ -122,11 +122,48 @@ body {
    cursor: pointer;
  }
  
- .side-nav a:hover, .dropdown-btn:hover {
+ .separate:hover, .dropbtn:hover {
    color: #FCFCFC;
    font-weight: 550;
    background-image: linear-gradient(to right, rgb(237, 124, 25, 0.5), rgba(32, 82, 163, 0.75));
  }
+
+ .side-nav a.active-link {
+   background-color: #86ADEC;
+   color: #1A2A7E;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #d9e7ff;
+ }
+ 
+ .dropdown-content a {
+   float: none;
+   color: #1A2A7E;
+   font-size: 15px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   display: block;
+   text-align: justify;
+   text-shadow: none;
+   text-decoration: none;
+   transition: background-color 0.5s ease, color 0.5s ease;
+ }
+ 
+ .dropdown-content a:hover {
+   background-color: #cce0ff;
+   font-size: 16px;
+   color: #101937;
+   text-shadow: 0 0 1px #DF041A;
+ }
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+   position: relative;
+ }
+
 
 /* Hoofdinhoud */
 .main {
@@ -134,9 +171,14 @@ body {
    text-align: justify;
    background-color: #FCFCFC;
    color:#101937;
+   font-family: 'Helvetica' sans-serif;
    word-wrap: break-word;
    height: 915px;
-   padding: 20px;
+   padding: 25px;
+   margin-left: 45px;
+   margin-right: 35px;
+   margin-top: 20px;
+   margin-bottom: 20px;
    position: relative;
    z-index: 40;
 }
