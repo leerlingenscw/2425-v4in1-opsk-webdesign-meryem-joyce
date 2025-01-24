@@ -7,7 +7,45 @@
     <link rel="stylesheet" href="stylehackers.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
-<h2>Hoofdstuk 3</h2>
+<body>
+    <div class="grid-container">
+        
+        <!-- Header -->
+        <header class="header">
+            <a class="wn">SBN</a> <br>
+            <a class="alt">the Security Basics for Novices</a>
+            <div class="divider"></div>
+        </header>
+
+        <!-- Navigatie zijbalk -->
+        <nav class="side-nav">
+            <ul>
+                <li><a href="index.html" class="separate">Home</a></li>
+        
+                    <li class="dropdown">
+                         <a class="dropbtn active-link" href="artikelen.html">
+                             Artikelen
+                         </a>
+                            <div class="dropdown-content">
+                                  <a href="CIA.html">CIA</a>
+                                  <a href="dreigingen.html">Dreigingen</a>
+                                  <a href="hackers.html">Hackers</a>
+                                  <a href="maatregelen.html">Maatregelen</a>
+                            </div>
+                    </li> 
+        
+                <li><a class="separate" href="over_ons.html">Over ons</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Image -->
+        <div class="decor">    
+            <img src="images/HeadingCH3.png" alt="Decorative header">
+        </div>
+
+        <!-- Hoofdinhoud -->
+        <main class="main">
+            <h2>Hoofdstuk 3</h2>
 <p>Er zijn heel veel vormen van computercriminaliteit of cybercrime. De belangrijkste daarvan zijn;
 <li>diefstal</li>
 <li>fraude</li>
@@ -43,3 +81,22 @@ Als je dus een keylogger of hack software hebt, kan dat dus al strafbaar zijn. I
     Een zero day is een nog niet ontdekte kwetsbaarheid. Zero days zijn belangrijke middelen die kunnen worden gebruikt om te hacken. Daarom zijn ze geld waard. Er bestaat veel handel in. Belangrijke zero days worden verkocht voor enkele tienduizenden tot wel honderdduizenden euro’s. Je kunt zero days beschouwen als de wapens van de digitale oorlogsvoering en de verkoop ervan als een vorm van wapenhandel. Want met zero days kunnen schadelijke aanvallen worden uitgevoerd, gegevens gestolen en systemen worden platgelegd. 
     Wie zijn er geïnteresseerd in zero days? Allereerst natuurlijk criminelen. Maar ook beveiligingsbedrijven kopen ze met het doel om de lekken te dichten. Het duurt namelijk vaak langer dan een jaar voordat een zero day aan het licht komt. Als beveiligingsbedrijven zero days kopen, weten ze ook welke systemen kwetsbaar zijn en kunnen ze hun klanten ertegen beschermen. Ook overheden maken gebruik van zero days. Dat doen ze om te spioneren. Door vijandige systemen te hacken, kan waardevolle informatie worden verzameld. Ook kan een zero day worden gebruikt om belangrijke vijandelijke systemen plat te leggen. Je kunt je afvragen of het niet beter is als overheden de kwetsbaarheden in een systeem melden bij de ontwikkelaar van dat systeem. Dan kan de kwetsbaarheid worden opgelost. Door zero days te gebruiken, blijft de kwetsbaarheid bestaan en wordt het internet onveiliger. Om deze reden is het gebruik van zero days omstreden. In Nederland mag de overheid zero days alleen onder strikte voorwaarden gebruiken.    
 </p>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <ul class="footer-list-inline">
+                <li class="list-inline-item"><a>M&J Corp. &copy; 2024</a></li>
+                <li class="list-inline-item"><a href="#">ToS</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a>Your amount of visits:</a><a class="counter"></a></li>
+            </ul>
+        </footer>
+    </div>
+            
+            <!-- Back to top button -->
+            <button onclick="topFunction()" id="topbutton" title="Go to top"></button> 
+            
+            <script src="javascript/Homepage.js"></script>
+
+</body>

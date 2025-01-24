@@ -7,7 +7,46 @@
     <link rel="stylesheet" href="stylemaatregelen.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
-<h2>Hoofdstuk 4</h2>
+
+<body>
+    <div class="grid-container">
+        
+        <!-- Header -->
+        <header class="header">
+            <a class="wn">SBN</a> <br>
+            <a class="alt">the Security Basics for Novices</a>
+            <div class="divider"></div>
+        </header>
+
+        <!-- Navigatie zijbalk -->
+        <nav class="side-nav">
+            <ul>
+                <li><a href="index.html" class="separate">Home</a></li>
+        
+                    <li class="dropdown">
+                         <a class="dropbtn active-link" href="artikelen.html">
+                             Artikelen
+                         </a>
+                            <div class="dropdown-content">
+                                  <a href="CIA.html">CIA</a>
+                                  <a href="dreigingen.html">Dreigingen</a>
+                                  <a href="hackers.html">Hackers</a>
+                                  <a href="maatregelen.html">Maatregelen</a>
+                            </div>
+                    </li> 
+        
+                <li><a class="separate" href="over_ons.html">Over ons</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Image -->
+        <div class="decor">    
+            <img src="images/HeadingCH4.png" alt="Decorative header">
+        </div>
+
+        <!-- Hoofdinhoud -->
+        <main class="main">
+            <h2>Hoofdstuk 4</h2>
 <p>Preventieve beveiligingsmaatregelen zijn de maatregelen die worden genomen om problemen te voorkomen. Dat begint bij hard- en software. Die moet veilig worden gemaakt en de software moet up-to-date blijven. Dat betekent bijvoorbeeld dat een softwareontwikkelaar op de hoogte moet zijn van manieren waarop je goed beveiligde software maakt.</p>
 <p>
 <i>Een voorbeeld van een software security maatregel is <ins>sandboxing</ins>. Deze techniek laat apps in hun eigen afgesloten ruimte draaien, waar ze alleen toegang krijgen tot hun eigen geheugen en opslag. De meeste apps hebben namelijk geen reden om toegang te krijgen tot andere plekken in het systeem. Willen ze dat wel, dan moeten ze toestemming vragen aan het besturingssysteem. Op je telefoon zie je dit terug wanneer een app toegang vraagt tot bijvoorbeeld je camera, bestanden of locatie. In een sandbox kan malware <ins>geen</ins> schade aanrichten.</i> 
@@ -74,3 +113,23 @@ De Play Store en App Store controleren nieuwe software voordat het beschikbaar w
 <li>Als je data opslaat op een externe databron, zoals een externe harde schijf of USB-stick, versleutel dan de gegevens. In Windows bestaat daarvoor het programma BitLocker.</li>
 <li>Wees heel voorzichtig met het (permanent) aansluiten van zelf geprogrammeerde apparaten op het internet, zoals een Arduino en Raspberry Pi. Deze apparaten zijn heel kwetsbaar voor automatische hacks. Via zulke hacks proberen criminelen software op je apparaat te installeren die bijvoorbeeld malware of spam verspreidt. Je moet behoorlijk veel technische kennis opdoen over de beveiliging van deze apparaten, voordat je ze veilig kunt verbinden met het internet.</li>
 </p>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <ul class="footer-list-inline">
+                <li class="list-inline-item"><a>M&J Corp. &copy; 2024</a></li>
+                <li class="list-inline-item"><a href="#">ToS</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a>Your amount of visits:</a><a class="counter"></a></li>
+            </ul>
+        </footer>
+    </div>
+            
+            <!-- Back to top button -->
+            <button onclick="topFunction()" id="topbutton" title="Go to top"></button> 
+            
+            <script src="javascript/Homepage.js"></script>
+
+</body>
