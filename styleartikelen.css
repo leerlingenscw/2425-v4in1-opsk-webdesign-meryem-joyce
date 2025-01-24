@@ -196,6 +196,39 @@ body {
    margin-left: 0;
 }
 
+/* Tabel */
+#table {
+   font-family: "Helvetica", sans-serif;
+   border-collapse: collapse;
+   width: 550px;
+ }
+ 
+ #table td {
+   border: 2px solid #7380a5;
+   padding: 8px;
+ }
+
+ #table th {
+   border: 2px solid #152368;
+   padding: 8px;
+ }
+ 
+ #table tr:nth-child(even) {
+   background-color: #FCFCFC;
+}
+
+#table tr:nth-child(odd) {
+   background-color: #e0e0e0;
+}
+
+ #table th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: rgb(32, 82, 163, 0.8);
+   color: #1A2A7E;
+ }
+
 /* Image */
 .decor {
    grid-area: img;
