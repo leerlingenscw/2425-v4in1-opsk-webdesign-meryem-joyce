@@ -174,6 +174,7 @@ body {
    font-family: 'Helvetica', sans-serif;
    word-wrap: break-word;
    height: 915px;
+   width: 100%;
    padding: 25px;
    margin-left: 45px;
    margin-right: 35px;
@@ -183,6 +184,14 @@ body {
    z-index: 40;
 }
 
+/* Image */
+.decor {
+   grid-area: img;
+   position: relative;
+   margin-top: 3px;
+   margin-left: 150px;
+   z-index: 50;
+}
 
 /* Footer */
 .footer {
@@ -193,7 +202,6 @@ body {
    padding-bottom: 20px;
    padding-right: 300px;
    padding-left: 250px;
-   margin-top: 8px;
    height: 60px;
    font-family:'Gill Sans', sans-serif;
    font-weight: 500;
