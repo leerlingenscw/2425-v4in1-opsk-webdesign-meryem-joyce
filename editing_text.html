@@ -1,29 +1,13 @@
-<h2>Hoofdstuk 2</h2>
-<p>Onze digitale veiligheid wordt op allerlei manieren bedreigd. Aanvallers maken gebruik van verschillende zwakheden om toegang te krijgen tot onze digitale gegevens. In dit hoofdstuk kijken we naar de volgende zwakheden;
-<li>zwakheden in de architectuur</li>
-<li>zwakheden in communicatie</li>
-<li>zwakheden bij gebruikers</li>
-</p>
-<br>
-<p>Zoals je al weet, bestaan producten uit drie lagen;
-    <ol>
-        <li>Fysieke laag</li>
-        <li>Logische laag</li>
-        <li>Toepassingslaag</li>
-    </ol>
-Een zwakheid in de architectuur maakt gebruik van een tekortkoming in een van deze lagen, of in de communicatie tussen twee lagen. Er is dan een fout gemaakt in het ontwerp van deze laag of de communicatie. Vaak had de ontwerper of maker die fout helemaal niet voorzien. 
-    </p>
-<p>Een voorbeeld is de camera op je telefoon. Wanneer een app gebruik wil maken van je camera, verschijnt er eerst een pop-up waarin je toestemming moet geven. Het kan gebeuren dat er een manier wordt gevonden om de camera te gebruiken zonder dat de pop-up verschijnt. Een aanvaller kan dan meekijken met je camera zonder dat je dat doorhebt.</p>
-<p>Een ander voorbeeld is de vraagtaal SQL. Een app of website kan gegevens ophalen uit een database en deze weergeven. Stel dat het lukt om de vraag vanuit de app naar de database aan te passen. Dan is het ineens mogelijk om andere gegevens uit de database te selecteren dan die oorspronkelijk worden gevraagd. En het is in theorie zelfs mogelijk om nieuwe gegevens toe te voegen, bestaande gegevens aan te passen en zelfs te verwijderen. Deze techniek wordt een SQL-injectie genoemd. Het is een vorm van hacken waardoor gegevens in een slecht beveiligde databaseverbinding kunnen worden aangepast. </p>
-<p>Als je een app of programma maakt dat een database gebruikt, moet je altijd zorgen dat deze verbinding goed beveiligd is en dat je input van gebruikers altijd filtert. Zwakheden in de architectuur kun je verhelpen door ze zelf op te sporen en op te lossen, voordat iemand met kwade bedoelingen ze heeft gevonden. Dat doe je door de architectuur te testen. Je gaat dan zelf proberen om de architectuur aan te vallen.</p>
-<p>Verschillende apparaten zijn met elkaar verbonden. Bijvoorbeeld door het internet, waardoor ze met elkaar communiceren. Maar die communicatie moet wel op een veilige manier gebeuren. Als jij op je telefoon een wachtwoord intypt op een website, wordt dit wachtwoord verzonden vanaf je telefoon naar de website. Het ingevoerde wachtwoord mag voor niemand zichtbaar zijn, behalve voor de website waarop je inlogt. </p>
-<br>
-<p>
+
+
+
+    
+    <p>
     <b>Man-in-the-Middle aanval</b>
     <br> Met een man-in-the-middle aanval kan de verbinding tussen twee apparaten afgeluisterd worden. Stel dat een gebruiker gegevens invult op een website. Die gegevens worden direct naar de website verzonden. Maar als er iemand tussen deze verbinding komt, en de binnenkomende gegevens van de gebruiker direct doorstuurt naar de website, heb je niet door dat je afgeluisterd wordt. 
     Deze techniek werd vroeger nogal eens gebruikt door een openbaar wifi-netwerk op te zetten. Nietsvermoedende gebruikers verbinden hiermee en maken gebruik van het internet. Maar ondertussen loopt al het internetverkeer via de hotspot van de aanvaller. 
-</p>
-<p>
+    </p>
+    <p>
     <b>HTTPS</b>
     <br> In de protocollen HTTP en HTTPS staat onder andere beschreven hoe het internetverkeer geregeld is. HTTP staat voor Hypertext Transfer Protocol. HTTP is een protocol dat wordt gebruikt voor de communicatie tussen een webserver en een webbrowser. HTTPS staat voor Hypertext Transfer Protocol Secure. Met secure kan er een beveiligde verbinding worden opgezet tussen een client en een server. Het blijft dan mogelijk om internetverkeer af te luisteren, maar het is niet meer in te zien, omdat het door middel van encryptie beveiligd is. De techniek die hierachter zit, is de asymmetrische encryptie. 
 </p>
@@ -37,7 +21,7 @@ Een zwakheid in de architectuur maakt gebruik van een tekortkoming in een van de
 <p>Bij een HTTPS-verbinding worden de gegevens versleuteld verstuurd tussen de cliënt en de server. De server kan dus de oorspronkelijk, onversleutelde gegevens inzien en opslaan. Aanvallers maken hiervan al te graag gebruik door bijvoorbeeld op servers in te breken en de onversleutelde gegevens te stelen. End-to-end encryption versleuteld de gegevens nog voordat ze het internet op gaan, en ontsleutelt ze pas wanneer ze het internet verlaten. Alleen jij en de ontvanger kunnen ze ontsleutelen. Krijgt een hacker toegang tot de server, dan zal hij/zij nooit de onversleutelde gegevens in kunnen zien. End-to-end encryption lost dus problemen als gevolg van zwakheden in de communicatie en zwakheden in de architectuur op.
     Een van de bekendste voorbeelden van zwakheden bij gebruikers is de manier waarop wij met wachtwoorden omgaan. Vooral veel diensten op het internet moet je een gebruikersnaam en een wachtwoord gebruiken. Vaak kiezen mensen voor simpele wachtwoorden die makkelijk te onthouden zijn, zoals Welkom123 of gewoon hun voornaam. Helaas zijn dit soort wachtwoorden makkelijk te kraken: een aanvaller kan er makkelijk achter komen en inbreken op je account.
     </p>
-<p>Met het kraken van wachtwoorden wordt er bedoeld dat een aanvaller dan probeert elk mogelijk wachtwoord te gebruiken om in te loggen op je account, totdat het juiste wachtwoord is gevonden. Speciale programma’s zijn in staat om duizenden wachtwoorden per seconde te proberen. Deze techniek heet brute force →er wordt brute kracht ingezet om het wachtwoord te ontdekken. Veel websites voorkomen een brute force-aanval door een grens te stellen aan het aantal malen dat een wachtwoord geprobeerd mag worden. Dat is helaas niet voldoende: bij een zwakheid in de architectuur kan het alsnog gebeuren dat aanvallers duizenden pogingen kunnen doen. Om te voorkomen dat je wachtwoord bij een brute force-aanval gekraakt kan worden, is het belangrijk om het wachtwoord zo ingewikkeld mogelijk te maken. Veel websites helpen je hierbij door het gebruik van cijfers en speciale tekens te verplichten. Dankzij die extra tekens zijn er meer mogelijke wachtwoorden, waardoor een aanvaller veel meer pogingen moet doen.
+<p>Met het kraken van wachtwoorden wordt er bedoeld dat een aanvaller dan probeert elk mogelijk wachtwoord te gebruiken om in te loggen op je account, totdat het juiste wachtwoord is gevonden. Speciale programma's zijn in staat om duizenden wachtwoorden per seconde te proberen. Deze techniek heet brute force →er wordt brute kracht ingezet om het wachtwoord te ontdekken. Veel websites voorkomen een brute force-aanval door een grens te stellen aan het aantal malen dat een wachtwoord geprobeerd mag worden. Dat is helaas niet voldoende: bij een zwakheid in de architectuur kan het alsnog gebeuren dat aanvallers duizenden pogingen kunnen doen. Om te voorkomen dat je wachtwoord bij een brute force-aanval gekraakt kan worden, is het belangrijk om het wachtwoord zo ingewikkeld mogelijk te maken. Veel websites helpen je hierbij door het gebruik van cijfers en speciale tekens te verplichten. Dankzij die extra tekens zijn er meer mogelijke wachtwoorden, waardoor een aanvaller veel meer pogingen moet doen.
 <li>Hoe meer tekens, hoe veiliger. Bij een lang wachtwoord is het al snel niet meer de moeite waard om er een brute force aanval op los te laten.</li>
 <li>Hoe meer soorten tekens, hoe veiliger. Hoe complexer het wachtwoord, hoe meer mogelijkheden een hacker moet inzetten om het ingewikkelde wachtwoord te vinden.</li>
 <li>Gebruik geen voor de hand liggende woorden, zoals woorden in een woordenboek, de naam van de website of je eigen naam of geboortedatum.</li>
@@ -67,7 +51,7 @@ Een zwakheid in de architectuur maakt gebruik van een tekortkoming in een van de
     <br>Phishing is een techniek die door criminelen gebruikt wordt in combinatie met social engineering. Met phishing worden slachtoffers, meestal via een e-mail, naar een valse website gelokt. Die e-mail en website zijn vaak nauwkeurig nagemaakt. Meestal gaat het om e-mails van banken, waarin staat dat er iets mis is met je rekening. Om het op te lossen moet je dan inloggen en iets herstellen. Maar in plaats van dat je bij je bank inlogt, log je in op een goed nagemaakte kopie, waar je verder niets kunt. Maar hierdoor hebben de aanvallers wel je inloggegevens. 
 </p>
 <p> <b>Malware</b>
-    <br>Malware is een samenvoeging van de woorden ‘malicious’ en ‘software’. Dit betekent kwaadaardige software. Het omvat alle programma’s die ontwikkeld zijn met kwaadwillende bedoelingen. Malware is er in verschillende vormen en soorten. De meest voorkomende malware zijn;
+    <br>Malware is een samenvoeging van de woorden ‘malicious' en ‘software'. Dit betekent kwaadaardige software. Het omvat alle programma's die ontwikkeld zijn met kwaadwillende bedoelingen. Malware is er in verschillende vormen en soorten. De meest voorkomende malware zijn;
     <li>Trojan Horse</li>
     <li>Virus</li>
     <li>Worm</li>
@@ -79,14 +63,14 @@ Een zwakheid in de architectuur maakt gebruik van een tekortkoming in een van de
    <br> Trojan horse is een malware-soort die vernoemd is naar het paard van Troje. Dit is een bekend verhaal uit de Griekse oudheid. Het verhaal gaat als volgt:
     <br>
     <i>Om de stad Troje te veroveren had het Griekse leger een gigantisch houten paard gemaakt. In dit paard waren soldaten verstopt, de inwoners van Troje dachten dat het paard een cadeau was en haalde het naar binnen. Vervolgens waren de vijandige soldaten in de stad. Zij openden de poort van de stad, waarna het leger ongehinderd naar binnen kon.</i> 
-    <br>Net zoals bij het ‘echte’ paard van Troje hebben gebruikers soms niet door dat ze malware binnenhalen. Dat komt doordat de malware verstopt zit in bijvoorbeeld een e-mailbijlage. Als je die bewuste e-mailbijlage opent, activeer je automatisch de trojan. 
+    <br>Net zoals bij het ‘echte' paard van Troje hebben gebruikers soms niet door dat ze malware binnenhalen. Dat komt doordat de malware verstopt zit in bijvoorbeeld een e-mailbijlage. Als je die bewuste e-mailbijlage opent, activeer je automatisch de trojan. 
     Een trojan horse is geen programma dat zichzelf verspreidt. Als je het eenmaal hebt, zal het schade aanbrengen aan je systeem of het systeem openzetten voor hackers. Maar de verspreiding vindt nagenoeg altijd plaats door de mensen. Misschien stuur jij die e-mail door naar andere mensen.  
 </p>
 <p> <b>Virus</b>
     <br>Een virus is geen zelfstandig programma. In plaats daarvan besmet een virus bestaande software, net zoals een echte virus mensen kan besmetten. Het virus nestelt zich meestal in uitvoerbare bestanden of executables. Dat zijn de bestanden waarmee je software opstart. De besmette software richt zich vervolgens schade aan en verspreidt zich naar andere computers. 
 </p>
 <p> <b>Worm</b>
-    <br>In tegenstelling tot een trojan verspreidt een worm zichzelf wel automatisch. Daar komt de naam van dit type malware ook vandaan. Het idee van een worm is dat hij zich door alle computernetwerken en het internet heen ‘wurmt’ en zich op die manier verspreidt, bijvoorbeeld via e-mail. Sommige wormen zijn niet gemaakt om schade aan te richten. Toch zijn alle wormen een vorm van malware. Dat komt doordat ze hun werk per definitie doen zonder toestemming van de gebruiker. 
+    <br>In tegenstelling tot een trojan verspreidt een worm zichzelf wel automatisch. Daar komt de naam van dit type malware ook vandaan. Het idee van een worm is dat hij zich door alle computernetwerken en het internet heen ‘wurmt' en zich op die manier verspreidt, bijvoorbeeld via e-mail. Sommige wormen zijn niet gemaakt om schade aan te richten. Toch zijn alle wormen een vorm van malware. Dat komt doordat ze hun werk per definitie doen zonder toestemming van de gebruiker. 
     Hoewel sommige wormen geen kwade bedoelingen hebben, vragen ze altijd netwerkcapaciteit om zichzelf te verspreiden. Zo heeft een worm dus altijd een negatieve invloed op een computernetwerk.    
 </p>
 <p> <b>Spyware</b>
@@ -98,7 +82,7 @@ Een zwakheid in de architectuur maakt gebruik van een tekortkoming in een van de
     Spyware zorgt ervoor dat het iedere keer wordt opgestart als een computer opnieuw wordt aangezet. 
 </p>
 <p> <b>Adware</b>
-    <br>Adware is een andere categorie malware. De ‘ad’ van adware staat voor advertentie. Het doel van adware is dus het weergeven van advertenties op je computer
+    <br>Adware is een andere categorie malware. De ‘ad' van adware staat voor advertentie. Het doel van adware is dus het weergeven van advertenties op je computer
     Dit kan ook legaal zijn, bijvoorbeeld bij de installatie van shareware. Er kan dan regelmatig een advertentie komen waar je wordt aangespoord om de volledige versie van het programma aan te schaffen. 
     Maar vaak wordt adware gebruikt om ongewenste reclames te geven. Vaak bevat adware ook technieken die in spyware zitten. Op die manier kan adware gerichte reclames aan de gebruiker voorschotelen.
     <i>Spyware en adware worden vaak gezien als eenzelfde soort malware. Maar ze hebben een andere functie, die in praktijk wel vaak gecombineerd wordt.</i> 

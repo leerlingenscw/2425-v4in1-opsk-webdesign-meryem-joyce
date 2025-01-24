@@ -186,6 +186,12 @@ body {
    z-index: 40;
 }
 
+.main .model {
+   float: right;
+   width: 300px;
+   margin-left: 15px;
+}
+
 .main .firstline {
    margin-top: 0;
 }
