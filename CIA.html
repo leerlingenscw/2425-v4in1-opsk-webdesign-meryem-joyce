@@ -37,3 +37,11 @@
         <br>
         <p>Stel dat je een bestand met iemand wilt delen. Bijvoorbeeld via het internet. Hoe weet deze persoon dan zeker dat het bestand dat hij krijgt wel de originele bestand is? Misschien is er onderweg iets gebeurd met het bestand, waardoor de inhoud is aangepast. Als dat zo is, dan is de integriteit van het bestand aangetast. Als je installatiebestanden van programma’s downloadt via het internet, zie je er soms een checksum bij staan. Bijvoorbeeld bij het muziekbewerkingsprogramma Audacity.
             Checksum kun je vergelijken met de vingerafdruk van een bestand. Toen de makers van Audacity het bestand online zetten, hebben ze deze checksum gegenereerd. Als jij het bestand downloadt en er ook een checksum van genereert, kun je controleren of je exact hetzelfde bestand hebt. </p>
+    
+    <br>
+    <p>Als je veel geld wilt overmaken, wil je zeker weten dat je geen fouten maakt bij het invoeren van het rekeningnummer (IBAN). Er zit een mechanisme in IBAN’s dat typefouten kan voorkomen. Dat systeem heet het controlegetal. Het systeem werkt als volgt;
+        Verplaats de eerste vier karakters naar het einde van het IBAN
+        Vervang elke letter door twee cijfers, volgens het systeem A = 10, B = 11, enz
+        Bij het berekenen van een getal (bijv. bereken het getal modulo 97) deel je het getal door het gegeven getal en onthoud je de restwaarde. Als de restwaarde 1 is, dan gaat het om een valide IBAN. 
+        Dit houdt in dat je het getal deelt door 97, en de restwaarde onthoudt. Als de restwaarde 1 is, dan gaat het om een valide IBAN
+        </p>
