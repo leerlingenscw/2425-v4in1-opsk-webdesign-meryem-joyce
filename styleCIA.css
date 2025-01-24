@@ -185,7 +185,9 @@ body {
 
 /* Image */
 .decor {
-   
+   margin-left: 25px;
+   margin-top: 0;
+   position: relative;
 }
 
 /* Footer */
