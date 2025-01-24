@@ -246,6 +246,7 @@ body {
    grid-area: img;
    position: relative;
    margin-top: 3px;
+   margin-left: 150px;
    z-index: 50;
 }
 
