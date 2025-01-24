@@ -22,3 +22,14 @@
     </ol>
 Een zwakheid in de architectuur maakt gebruik van een tekortkoming in een van deze lagen, of in de communicatie tussen twee lagen. Er is dan een fout gemaakt in het ontwerp van deze laag of de communicatie. Vaak had de ontwerper of maker die fout helemaal niet voorzien. 
     </p>
+<p>Een voorbeeld is de camera op je telefoon. Wanneer een app gebruik wil maken van je camera, verschijnt er eerst een pop-up waarin je toestemming moet geven. Het kan gebeuren dat er een manier wordt gevonden om de camera te gebruiken zonder dat de pop-up verschijnt. Een aanvaller kan dan meekijken met je camera zonder dat je dat doorhebt.</p>
+<p>Een ander voorbeeld is de vraagtaal SQL. Een app of website kan gegevens ophalen uit een database en deze weergeven. Stel dat het lukt om de vraag vanuit de app naar de database aan te passen. Dan is het ineens mogelijk om andere gegevens uit de database te selecteren dan die oorspronkelijk worden gevraagd. En het is in theorie zelfs mogelijk om nieuwe gegevens toe te voegen, bestaande gegevens aan te passen en zelfs te verwijderen. Deze techniek wordt een SQL-injectie genoemd. Het is een vorm van hacken waardoor gegevens in een slecht beveiligde databaseverbinding kunnen worden aangepast. </p>
+<p>Als je een app of programma maakt dat een database gebruikt, moet je altijd zorgen dat deze verbinding goed beveiligd is en dat je input van gebruikers altijd filtert. Zwakheden in de architectuur kun je verhelpen door ze zelf op te sporen en op te lossen, voordat iemand met kwade bedoelingen ze heeft gevonden. Dat doe je door de architectuur te testen. Je gaat dan zelf proberen om de architectuur aan te vallen.</p>
+<p>Verschillende apparaten zijn met elkaar verbonden. Bijvoorbeeld door het internet, waardoor ze met elkaar communiceren. Maar die communicatie moet wel op een veilige manier gebeuren. Als jij op je telefoon een wachtwoord intypt op een website, wordt dit wachtwoord verzonden vanaf je telefoon naar de website. Het ingevoerde wachtwoord mag voor niemand zichtbaar zijn, behalve voor de website waarop je inlogt. </p>
+<br>
+<p>
+    <b>Man-in-the-Middle aanval</b>
+    Met een man-in-the-middle aanval kan de verbinding tussen twee apparaten afgeluisterd worden. Stel dat een gebruiker gegevens invult op een website. Die gegevens worden direct naar de website verzonden. Maar als er iemand tussen deze verbinding komt, en de binnenkomende gegevens van de gebruiker direct doorstuurt naar de website, heb je niet door dat je afgeluisterd wordt. 
+    Deze techniek werd vroeger nogal eens gebruikt door een openbaar wifi-netwerk op te zetten. Nietsvermoedende gebruikers verbinden hiermee en maken gebruik van het internet. Maar ondertussen loopt al het internetverkeer via de hotspot van de aanvaller. 
+    
+</p>
