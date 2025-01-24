@@ -184,6 +184,15 @@ body {
    z-index: 40;
 }
 
+.main h3 {
+   margin-top: 35px;
+   margin-bottom: 0;
+}
+
+.main p {
+   font-size: 12px;
+}
+
 /* Animatie */
 .rotating-text {
    font-family: "New Century Schoolbook, TeX Gyre Schola", serif;
