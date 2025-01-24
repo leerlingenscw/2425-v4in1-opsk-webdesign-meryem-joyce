@@ -1,0 +1,68 @@
+<h2>Hoofdstuk 1</h2>
+
+<p>Het beveiligen van digitale gegevens gaat voornamelijk over de drie volgende aspecten;
+<li><b>Vertrouwelijkheid</b> → de afscherming van gegevens tegen ongeoorloofde inzage </li> 
+<li><b>Integriteit</b> → bescherming van gegevens tegen verlies of onbedoelde wijzigingen </li>
+<li><b>Beschikbaarheid</b> → de mate van storingsvrije toegang tot de gegevens </li>
+<br>
+    Authenticatie → de controle die nodig is om te kijken of de gebruiker wel toegang mag hebben tot persoonlijke gegevens.
+    Je hebt verschillende soorten authenticatie. Deze verschillende vormen zijn;
+    <li><b>Kennis</b>: Iets wat je weet (wachtwoord) </li>
+    <li><b>Eigendom</b>: Iets wat je bezit (USB-sleutel) </li>
+    <li><b>Inherentie</b>: Iets wat je bent (persoonlijke eigenschap) (vingerafdruk) </li>
+    <li><i>Waar je bent (sommige deskundigen denken dat dit de vierde vorm is. Bijvoorbeeld: als je probeert om veel geld over te maken terwijl je in het buitenland bent dan is dat een signaal voor je bank dat iemand misschien je account heeft overgenomen)</li></i>
+    
+    <br>
+    Er worden ook de termen identificatie en verificatie gebruikt. 
+    <li>Bij <b>identificatie</b>wordt er meestal aan je gevraagd wie je bent. Dat kun je aangeven door bijvoorbeeld je gebruikersnaam/wachtwoord in te typen of je vingerafdruk te laten scannen.</li>
+    <li>Daarna komt de <b>verificatie.</b> Daar stellen ze meestal de vraag of je wel de persoon bent die je zegt dat je bent. Verificatie vindt alleen plaats als er gegevens van jou bekend zijn. Bijvoorbeeld in een database of smartphone. Zo kan er gecontroleerd worden of jij de juiste persoon bent om toegang te krijgen</li>
+    </p>
+    <p>Je krijgt een veiligere toegangscontrole door twee vormen van authenticatie met elkaar te combineren. Dit wordt bijvoorbeeld gedaan als je met een pinpas een betaling in de winkel doet. Om de betaling te kunnen doen heb je je pinpas nodig (iets wat je hebt), en bij grotere bedragen heb je je pincode nodig (iets wat je weet). De combinatie van twee vormen van authenticatie wordt two factor authentication genoemd. Een ander voorbeeld hiervan is het inloggen op websites op het internet. Als je inlogt met je gebruikersnaam/wachtwoord (iets dat je weet) moet je ook nog een verificatiecode opvragen (iets dat je hebt).</p>
+    <p>Een techniek die verwant is aan authenticatie, identificatie en verificatie is screening. Bij screening worden personen of voertuigen geïdentificeerd. Bijvoorbeeld met camera's. Als een persoon of voertuig op een blacklist staat, wordt hier een melding van gedaan bij de autoriteiten. Die kunnen dan een passende actie ondernemen. Met personen of voertuigen die wel geïdentificeerd worden, maar niet op een blacklist staan, wordt geen actie ondernomen.</p>
+
+    <p>Op school is het alleen mogelijk voor docenten om cijfers in te voeren. Leerlingen kunnen alleen cijfers bekijken. Het cijfersysteem moet dus controleren of een gebruiker toegang heeft en zo ja, welke <b>rechten</b> die gebruiker heeft. De rechten van een gebruiker zijn verbonden aan diens <b>rol</b>. Een gebruiker met de rol ‘docent' heeft meer rechten dan een gebruiker met de rol ‘leerling'. Maar iemand met de rol ‘beheerder' heeft nog meer rechten dan een gebruiker met de rol ‘docent'.
+        De controle of een gebruiker toegang heeft, valt onder vertrouwelijkheid. De controle welke rechten een vertrouwde gebruiker allemaal heeft, noemen we autorisatie. We noemen dat ook wel een controle van de integriteit.
+        Met de integriteit van gegevens en informatie wordt er bedoeld dat de kwaliteit van de gegevens zo is, dat er aan al deze eisen wordt voldaan. De gegevens mogen alleen verwerkt worden door gebruikers die hier de juiste rechten voor hebben. Zoals bij het cijfersysteem op school. Door de rechten van de gebruikers af te dwingen, zorgen we ervoor dat de gegevens ‘kloppen' →er is hier sprake van integriteit.
+        </p>
+        <p>Het begrip integriteit heeft nog veel meer betekenissen dan de voorbeelden hierboven. In computernetwerken kunnen bepaalde (netwerk)schijven of mappen alleen beschikbaar zijn voor gebruikers met een specifieke rol. Zo heeft de directie van een school een aparte schijf in het netwerk, waar ze hun bestanden met elkaar kunnen delen. Om toegang te krijgen tot deze bestanden, hoeft er niet apart ingelogd te worden. Maar er moet wel <ins>autorisatie</ins> plaatsvinden → de controle of je toegang hebt. Die autorisatie kan door het systeembeheer worden ingesteld via file permissions. </p>
+        <br>
+        <p>Stel dat je een bestand met iemand wilt delen. Bijvoorbeeld via het internet. Hoe weet deze persoon dan zeker dat het bestand dat hij krijgt wel de originele bestand is? Misschien is er onderweg iets gebeurd met het bestand, waardoor de inhoud is aangepast. Als dat zo is, dan is de integriteit van het bestand aangetast. Als je installatiebestanden van programma's downloadt via het internet, zie je er soms een checksum bij staan. Bijvoorbeeld bij het muziekbewerkingsprogramma Audacity.
+            Checksum kun je vergelijken met de vingerafdruk van een bestand. Toen de makers van Audacity het bestand online zetten, hebben ze deze checksum gegenereerd. Als jij het bestand downloadt en er ook een checksum van genereert, kun je controleren of je exact hetzelfde bestand hebt. </p>
+    
+    <br>
+    <p>Als je veel geld wilt overmaken, wil je zeker weten dat je geen fouten maakt bij het invoeren van het rekeningnummer (IBAN). Er zit een mechanisme in IBAN's dat typefouten kan voorkomen. Dat systeem heet het controlegetal. Het systeem werkt als volgt;
+        Verplaats de eerste vier karakters naar het einde van het IBAN
+        Vervang elke letter door twee cijfers, volgens het systeem A = 10, B = 11, enz
+        Bij het berekenen van een getal (bijv. bereken het getal modulo 97) deel je het getal door het gegeven getal en onthoud je de restwaarde. Als de restwaarde 1 is, dan gaat het om een valide IBAN. 
+        Dit houdt in dat je het getal deelt door 97, en de restwaarde onthoudt. Als de restwaarde 1 is, dan gaat het om een valide IBAN
+        </p>
+        <p>Hiervoor heb je gelezen over dat je moet controleren wie er toegang heeft tot je data, en wat er vervolgens met die data mag gebeuren. Een derde aspect hiervoor is de beschikbaarheid. Data moet altijd beschikbaar zijn. Dit gaat niet vanzelf. Je zult hiervoor waarschijnlijk af en toe beveiligingsupdates installeren. Of, als het nodig is, defecte hardware-onderdelen vervangen.
+        </p>
+        <p>Wanneer de data niet (meer) beschikbaar is, moet er een back-up zijn. Een back-up maken kan op verschillende manieren, bijvoorbeeld via;
+            <li>Een clouddienst
+            <ul>
+                <li>OneDrive</li>
+                <li>Google Drive</li> 
+                <li>iCloud Drive</li>
+            </ul>    
+            </li>
+            <li>USB-stick</li>
+            <li>Externe harde schijf</li>
+            </p>
+            <p>Bij de laatste twee is het wel belangrijk om ze niet op dezelfde locatie te bewaren als de data waarvan de back-up is. Stel je voor dat je thuis op een externe harde schijf een back-up hebt staan van je computer, en er breekt een grote brand uit. Dan heb je je computer niet meer, en de back-up schijf niet meer. Het beste is dus om een back-up fysiek op een andere plek te bewaren. 
+                Beveiligingsexperts raden aan om gebruik te maken van het 3-2-1-systeem voor back-ups → zorg er altijd voor dat er drie kopieën van de gegevens zijn, die op minimaal twee verschillende manieren worden opgeslagen, waarvan één kopie op een andere locatie wordt bewaard. </p>
+            <p>Voor een toegangscontrole moeten er ook gegevens worden opgeslagen. Maar het opslaan (en het verzenden) van wachtwoorden, pincodes, vingerafdrukken en dergelijke gegevens brengt ook uitdagingen met zich mee. Stel je voor dat een hacker lukt om een database met wachtwoorden in te zien. Het is dan ineens erg eenvoudig geworden om toegang te krijgen tot persoonlijke gegevens. De impact voor gebruikers is dan groot. Een wachtwoord kun je nog wijzigen, maar een vingerafdruk niet. </p>
+            <p>Niet alleen wachtwoorden of vingerafdrukken moeten zorgvuldig worden opgeslagen. Je hebt misschien wel een USB-stick waarop bestanden staan, waarvan je niet wilt dat iedereen die kan zien. Of bestanden op je computer, die alleen jij mag bekijken. 
+                Gevoelige bestanden kunnen versleuteld/opgeslagen/verzonden worden. Hiervoor wordt er gebruikgemaakt van encryptie. Door middel van een sleutel (bijvoorbeeld een wachtwoord), kan de inhoud van een bestand wiskundig worden ‘gehusseld'. Met dit nieuwe bestand kun je niets; je moet de inhoud eerst weer op een correcte manier terugzetten. Dat kan alleen met de sleutel (die geheim moet blijven).</p>
+             <p>Encryptie wordt niet alleen gebruikt om bestanden te beveiligen, maar ook om communicatie geheim te houden. Dat zie je bijvoorbeeld bij WhatsApp als je een nieuw gesprek start, er staat dan ‘Berichten en oproepen worden end-to-end versleuteld. Niemand buiten deze chat kan ze lezen of beluisteren.' WhatsApp husselt dus alle berichten die je stuurt → zo kan niemand meelezen, behalve de persoon aan wie je de berichten verstuurt. </p>
+            <p>Voor het opslaan van wachtwoorden, vingerafdrukken en dergelijke wordt gebruikgemaakt van hashing. Hiermee wordt bijvoorbeeld het wachtwoord, net als bij encryptie, gehusseld. Bij hashing kun je echter niet meer terug naar het origineel. Heeft iemand dus een database met gehashte wachtwoorden gestolen, kan deze persoon nog steeds de originele wachtwoorden niet verkrijgen.</p>
+            <p>Hoe weet een website dan dat je het juiste wachtwoord invoert wanneer je probeert in te loggen? Dat gebeurt door je wachtwoord nogmaals te hashen. Wanneer je inlogt wordt er van het wachtwoord dat je opgeeft een hash gemaakt. Die hash wordt vergeleken met de hash in de database. Zijn de hashes gelijk aan elkaar, dan waren de wachtwoorden ook gelijk aan elkaar en mag je verder. Na het hashen wordt er dus niets met het oorspronkelijke wachtwoord gedaan. 
+                Vingerafdrukken worden  op smartphones in een apart deel van de hardware opgeslagen, waartoe andere processen geen toegang hebben. Leg je je vinger op de scanner, dan wordt aan dat aparte deel gevraagd of het een bekende vinger is. De apps krijgen je vingerafdruk nooit te zien. 
+                </p>
+            <br>
+            <p>Je webmail, de website van je bank en de OV-planner moeten zo veel als mogelijk beschikbaar zijn. Het komt toch weleens voor dat websites of andere digitale diensten tijdelijk niet beschikbaar zijn. Dit kan te maken hebben met een zogenoemde DDoS-aanval. DDoS staat voor Distributed Denial of Service. Oftewel, een gecontroleerde aanval om een dienst (tijdelijk) uit te schakelen. </p>
+            <p>Stel je voor dat de website van jouw school gemiddeld 100 aanvragen per minuut krijgt. Dit zullen vooral leerlingen zijn die hun rooster en/of huiswerk bekijken. Bij een DDoS-aanval worden er vele duizenden aanvragen per seconde gedaan. Een website kan dit niet allemaal verwerken en zal daardoor crashen.</p>
+            <p>Technisch is het niet heel moeilijk om een DDoS-aanval uit te voeren. Er zijn op het internet verschillende ‘aanbieders' te vinden, waar je tegen betaling een DDoS-aanval kunt aanvragen. Maar wees ervan bewust dat de straffen op het uitvoeren van een DDoS-aanval hoog zijn.
+                Een DDoS-aanval is strafbaar, omdat dit vaak grote gevolgen heeft. Wordt een ziekenhuis bijvoorbeeld aangevallen, waardoor belangrijke apparatuur niet meer werkt, dan lopen de patiënten gevaar. En als een bank onbereikbaar wordt door een DDoS-aanval, kunnen de rekeninghouders niet meer bij hun geld.
+                </p>
+            <p>Er zijn verschillende mogelijkheden om een DDoS-aanval tegen te gaan. Een veel gebruikte manier is om het verkeer richting een website te filteren. Alleen goedgekeurd verkeer zal worden doorgelaten. Mocht blijken dat er grote hoeveelheden ongewenst verkeer zijn, kan er worden gekozen om het internetverkeer om te leiden naar een gespecialiseerde anti-DDoS-dienst. Zo'n dienst wordt ook wel een 'Anti-DDoS wasstraat' genoemd. Die heeft verschillende geavanceerde methoden om te controleren of het verkeer ongewenst is. Zo blijft alleen het verkeer over dat legitiem is.</p>
