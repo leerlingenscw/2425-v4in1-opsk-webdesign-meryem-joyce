@@ -176,11 +176,26 @@ body {
    word-wrap: break-word;
    height: 915px;
    margin-left: 45px;
-   margin-right: 35px;
+   margin-right: 45px;
    margin-top: 20px;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
+   overflow-y: scroll;
+   padding-right: 20px;
+   padding-bottom: 20px;
    position: relative;
    z-index: 40;
+}
+
+.main .firstline {
+   margin-top: 0;
+}
+
+.main .height {
+   margin-top: 3px;
+}
+
+.main h3 {
+   margin-bottom: 3px;
 }
 
 /* Image */
